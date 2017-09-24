@@ -92,7 +92,7 @@ The code that was used to render this formula is just
 
 Here's an inline formula. 
 
-> It is well known that if <img src="https://github.com/vijayshankarv/notes/blob/master/svgs/162f63774d8a882cc15ae1301cfd8ac0.svg?invert_in_darkmode" align=middle width=119.01186pt height=26.70657pt/>, then <img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/master/svgs/584fa2612b78129d140fb208e9d76ae9.svg?invert_in_darkmode" align=middle width=112.3584pt height=33.20525999999999pt/>.
+> It is well known that if <img src="https://raw.githubusercontent.com/vijayshankarv/notes/master/svgs/162f63774d8a882cc15ae1301cfd8ac0.svg?invert_in_darkmode" align=middle width=119.01186pt height=26.70657pt/>, then <img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/master/svgs/584fa2612b78129d140fb208e9d76ae9.svg?invert_in_darkmode" align=middle width=112.3584pt height=33.20525999999999pt/>.
 
 The code that was used to render this is:
 
