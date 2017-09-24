@@ -19,7 +19,8 @@ In addition, while other Github TeX renderers tend to give a jumpy look to the c
 
 `readme2tex` ensures that inline mathematical expressions
 are properly aligned with the rest of the text to give a more natural look to the document. For example,
-this formula <img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/master/svgs/24a7d013bfb0af0838f476055fc6e1ef.svg?invert_in_darkmode" align=middle width=14.297414999999997pt height=30.588690000000003pt/> is preprocessed so that it lines up at the correct baseline for the text.
+this formula <img src="https://raw.githubusercontent.com/vijayshankarv/notes/master/svgs/24a7d013bfb0af0838f476055fc6e1ef.svg?
+invert_in_darkmode" align=middle width=14.297414999999997pt height=30.588690000000003pt/> is preprocessed so that it lines up at the correct baseline for the text.
 This is the one salient feature of this package compared to the others out there.
 
 ### Installation
