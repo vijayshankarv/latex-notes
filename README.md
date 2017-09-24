@@ -1,16 +1,16 @@
 # readme2tex
 Renders LaTeX for Github Readmes
 
-<p align="center"><img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/master/svgs/d27ecd9d6334c7a020001926c8000801.svg?invert_in_darkmode" align=middle width=159.69013499999997pt height=30.925784999999998pt/></p>
+<p align="center"><img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/svgs/svgs/d27ecd9d6334c7a020001926c8000801.svg?invert_in_darkmode" align=middle width=159.69013499999997pt height=30.925784999999998pt/></p>
 
-<p align="center"><img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/master/svgs/a00f34be6b1ce8e4820c9852c5e6163e.svg" align=middle width=748.4961pt height=75.554985pt/></p>
+<p align="center"><img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/svgs/svgs/a00f34be6b1ce8e4820c9852c5e6163e.svg" align=middle width=748.4961pt height=75.554985pt/></p>
 
 <sub>**Make sure that pdflatex is installed on your system.**</sub>
 
 ----------------------------------------
 
 `readme2tex` is a Python script that "texifies" your readme. It takes in Github Markdown and
-replaces anything enclosed between dollar signs with rendered <img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/master/svgs/c068b57af6b6fa949824f73dcb828783.svg?invert_in_darkmode" align=middle width=42.058170000000004pt height=22.40699999999997pt/>.
+replaces anything enclosed between dollar signs with rendered <img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/svgs/svgs/c068b57af6b6fa949824f73dcb828783.svg?invert_in_darkmode" align=middle width=42.058170000000004pt height=22.40699999999997pt/>.
 
 In addition, while other Github TeX renderers tend to give a jumpy look to the compiled text, 
 <p align="center">
@@ -19,14 +19,13 @@ In addition, while other Github TeX renderers tend to give a jumpy look to the c
 
 `readme2tex` ensures that inline mathematical expressions
 are properly aligned with the rest of the text to give a more natural look to the document. For example,
-this formula <img src="https://raw.githubusercontent.com/vijayshankarv/notes/master/svgs/24a7d013bfb0af0838f476055fc6e1ef.svg?
-invert_in_darkmode" align=middle width=14.297414999999997pt height=30.588690000000003pt/> is preprocessed so that it lines up at the correct baseline for the text.
+this formula <img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/svgs/svgs/24a7d013bfb0af0838f476055fc6e1ef.svg?invert_in_darkmode" align=middle width=14.297414999999997pt height=30.588690000000003pt/> is preprocessed so that it lines up at the correct baseline for the text.
 This is the one salient feature of this package compared to the others out there.
 
 ### Installation
 
 Make sure that you have Python 2.7 or above and `pip` installed. In addition, you'll need to have the programs `latex` 
-and `dvisvgm` on your `PATH`. In addition, you'll need to pre-install the `geometry` package in <img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/master/svgs/c068b57af6b6fa949824f73dcb828783.svg?invert_in_darkmode" align=middle width=42.058170000000004pt height=22.40699999999997pt/>.
+and `dvisvgm` on your `PATH`. In addition, you'll need to pre-install the `geometry` package in <img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/svgs/svgs/c068b57af6b6fa949824f73dcb828783.svg?invert_in_darkmode" align=middle width=42.058170000000004pt height=22.40699999999997pt/>.
 
 To install `readme2tex`, you'll need to run
 
@@ -80,7 +79,7 @@ of what you can do in `readme2tex`.
 ### Examples:
 
 Here's a display level formula
-<p align="center"><img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/master/svgs/32737e0a8d5a4cf32ba3ab1b74902ab7.svg?invert_in_darkmode" align=middle width=127.89182999999998pt height=39.30498pt/></p>
+<p align="center"><img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/svgs/svgs/32737e0a8d5a4cf32ba3ab1b74902ab7.svg?invert_in_darkmode" align=middle width=127.89182999999998pt height=39.30498pt/></p>
 
 The code that was used to render this formula is just
 
@@ -92,7 +91,7 @@ The code that was used to render this formula is just
 
 Here's an inline formula. 
 
-> It is well known that if <img src="https://raw.githubusercontent.com/vijayshankarv/notes/master/svgs/162f63774d8a882cc15ae1301cfd8ac0.svg?invert_in_darkmode" align=middle width=119.01186pt height=26.70657pt/>, then <img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/master/svgs/584fa2612b78129d140fb208e9d76ae9.svg?invert_in_darkmode" align=middle width=112.3584pt height=33.20525999999999pt/>.
+> It is well known that if <img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/svgs/svgs/162f63774d8a882cc15ae1301cfd8ac0.svg?invert_in_darkmode" align=middle width=119.01186pt height=26.70657pt/>, then <img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/svgs/svgs/584fa2612b78129d140fb208e9d76ae9.svg?invert_in_darkmode" align=middle width=112.3584pt height=33.20525999999999pt/>.
 
 The code that was used to render this is:
 
@@ -100,15 +99,15 @@ The code that was used to render this is:
 
 Notice that the formulas line up with the baseline of the text, even when the height of these two images are different.
 
-Sometimes, you might run into formulas that are bottom-heavy, like <img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/master/svgs/4cb4ead947a07837121937c807973436.svg?invert_in_darkmode" align=middle width=47.639295000000004pt height=37.03193999999999pt/>. Here, `readme2tex`
+Sometimes, you might run into formulas that are bottom-heavy, like <img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/svgs/svgs/4cb4ead947a07837121937c807973436.svg?invert_in_darkmode" align=middle width=47.639295000000004pt height=37.03193999999999pt/>. Here, `readme2tex`
 can compute the correct offset to align this formula to the baseline of your paragraph of text as well.
 
 #### Tikz (Courtesy of http://www.texample.net/)
 
-Did you notice the picture at the top of this page? That was also generated by <img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/master/svgs/c068b57af6b6fa949824f73dcb828783.svg?invert_in_darkmode" align=middle width=42.058170000000004pt height=22.40699999999997pt/>. `readme2tex` is capable of
+Did you notice the picture at the top of this page? That was also generated by <img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/svgs/svgs/c068b57af6b6fa949824f73dcb828783.svg?invert_in_darkmode" align=middle width=42.058170000000004pt height=22.40699999999997pt/>. `readme2tex` is capable of
 handling Tikz code. For reference, the picture
 
-<p align="center"><img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/master/svgs/522cbfbc866df378cb95b2ef083131b2.svg" align=middle width=741.26415pt height=75.554985pt/></p>
+<p align="center"><img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/svgs/svgs/522cbfbc866df378cb95b2ef083131b2.svg" align=middle width=741.26415pt height=75.554985pt/></p>
 
 is given by the tikz code
 
@@ -133,11 +132,11 @@ is given by the tikz code
 
 We can see a few other examples, such as this graphical proof of the Pythagorean Theorem.
 
-<p align="center"><img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/master/svgs/e148d2d3bb31215788cc03f9b472e5ba.svg?invert_in_darkmode" align=middle width=698.60835pt height=213.63705pt/></p>
+<p align="center"><img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/svgs/svgs/e148d2d3bb31215788cc03f9b472e5ba.svg?invert_in_darkmode" align=middle width=698.60835pt height=213.63705pt/></p>
 
 How about a few snowflakes?
 
-<p align="center"><img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/master/svgs/eb57748cb91d08bfc997b0d70f7f2774.svg?invert_in_darkmode" align=middle width=688.8321pt height=469.16595pt/></p>
+<p align="center"><img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/svgs/svgs/eb57748cb91d08bfc997b0d70f7f2774.svg?invert_in_darkmode" align=middle width=688.8321pt height=469.16595pt/></p>
 
 ### Usage
 
@@ -150,7 +149,7 @@ In addition, you can specify other arguments to `render.py`, such as:
 
 * `--readme READOTHER.md` The raw readme to process. Defaults to `READOTHER.md`.
 * `--output README.md` The processed readme.md file. Defaults to `README_GH.md`.
-* `--usepackage tikz` Addition packages to use during <img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/master/svgs/c068b57af6b6fa949824f73dcb828783.svg?invert_in_darkmode" align=middle width=42.058170000000004pt height=22.40699999999997pt/> compilation. You can specify this multiple times.
+* `--usepackage tikz` Addition packages to use during <img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/svgs/svgs/c068b57af6b6fa949824f73dcb828783.svg?invert_in_darkmode" align=middle width=42.058170000000004pt height=22.40699999999997pt/> compilation. You can specify this multiple times.
 * `--svgdir svgs/` The directory to store the output svgs. The default is `svgs/`
 * `--branch master` *Experimental* Which branch to store the svgs into, the default is just master.
 * `--username username` Your github username. This is optional, and `render.py` will try to infer this for you.
@@ -158,7 +157,7 @@ In addition, you can specify other arguments to `render.py`, such as:
 * `--nocdn` Ticking this will use relative paths for the output images. Defaults to False.
 * `--htmlize` Ticking this will output a `md.html` file so you can preview what the output looks like. Defaults to False.
 * `--valign` Ticking this will use the `valign` trick (detailed below) instead. See the caveats section for tradeoffs.
-* `--rerender` Ticking this will force a recompilation of all <img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/master/svgs/c068b57af6b6fa949824f73dcb828783.svg?invert_in_darkmode" align=middle width=42.058170000000004pt height=22.40699999999997pt/> formulas even if they are already cached.
+* `--rerender` Ticking this will force a recompilation of all <img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/svgs/svgs/c068b57af6b6fa949824f73dcb828783.svg?invert_in_darkmode" align=middle width=42.058170000000004pt height=22.40699999999997pt/> formulas even if they are already cached.
 * `--bustcache` Ticking this will ensure that Github renews its image cache. Github may sometimes take up to an hour for changed images to reappear. This is usually not necessary unless you've made stylistic changes.
 * `--add-git-hook` Ticking this will generate a post-commit hook for git that runs readme2tex with the rest of the specified arguments after each `git commit`.
 * `--pngtrick` Ticking this will generate `png` files instead of `svgs` for the formulas.
@@ -256,7 +255,7 @@ is the exact middle of the image. For IE and Edge however, the center is about 5
 above the exact center. Since this looks great for non-IE browsers, and reasonably good on Edge, this is the default
 rendering method. The trick here is to pad either the top or the bottom of the image with extra spaces until the
 baseline of the formula is at the center. For most formulas, this works great. However, if you have a tall formula,
-like <img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/master/svgs/bdd0f9b91b7fff7fe5a2b1b7684a96ef.svg?invert_in_darkmode" align=middle width=56.16665999999999pt height=71.68952999999999pt/>, you'll notice that there might be a lot
+like <img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/svgs/svgs/bdd0f9b91b7fff7fe5a2b1b7684a96ef.svg?invert_in_darkmode" align=middle width=56.16665999999999pt height=71.68952999999999pt/>, you'll notice that there might be a lot
 of slack vertical spacing between these lines. If this is a deal-breaker for you, you can always try the `--valign True`
 mode. For most inline formulas, this is usually a non-issue.
 
@@ -275,4 +274,4 @@ For the `png` relative mode, use
 
 ----------------------------------------
 
-<p align="center"><img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/master/svgs/48ab6ba0b4263d6ecddedfd213f66ff5.svg?invert_in_darkmode" align=middle width=1129.0752pt height=292.5417pt/></p>
+<p align="center"><img src="https://rawgit.com/in	git@github.com:vijayshankarv/notes/svgs/svgs/48ab6ba0b4263d6ecddedfd213f66ff5.svg?invert_in_darkmode" align=middle width=1129.0752pt height=292.5417pt/></p>
